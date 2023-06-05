@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>簡単勤怠</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="content-style-type" content="text/css">
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="assets/js/index.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="l-header__wrap">
+            <h1 class="l-header__logo" alt="簡単勤怠"></h1>
+            <div class="c-button__btnWrap sp_invisible">
+                <div class="c-button orange small_button"><a href="#">資料ダウンロード</a></div>
+                <div class="c-button blue small_button"><a href="#">30日間無料体験</a></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="p-hero">
+            <div class="p-hero__container">
+                <div class="p-hero__content">
+                    <h2 class="p-hero__title">勤怠管理の<span class="p-hero__titleBlue accent">悩</span><span class="p-hero__titleBlue accent">み</span>を
+                        <p class="p-hero__titleBig">カンタン<span class="p-hero__titleBlue">解決！</span></p></h2>
+                    <div class="p-hero__imgWrap" alt="簡単勤怠"></div>
+                </div>
+            </div>
+            <div class="c-contact_area hero_button">   
+                <div class="c-contact__btnWrap"> 
+                    <div class="c-button orange big_button"><a href="#">資料ダウンロード</a></div>
+                    <div class="c-button blue big_button"><a href="#">30日間無料体験</a></div>
+                </div>
+                <p class="c-contact__text">
+                    <a href="#"><span>お問い合わせはコチラ</span><img class="c-contact__arrow" src="assets/img/arrow.svg" alt="お問い合わせはコチラ"></a><br>
+                    <span class="c-contact__time">24時間受付！</span>
+                </p>
+            </div>
+        </section>
+        <section class="l-section p-worry">
+            <div class="l-section__container">
+                <h3 class="c-section__title">こんな<span class="title_blue">お悩み</span>ありませんか</h3>
+                <div class="p-worry__content">
+                    <div class="p-worry__imgWrap">
+                        <img class="p-worry__img" src="assets/img/worry.png" alt="勤怠管理のお悩み">
+                    </div>
+                    <ul class="p-worry__list">
+                        <li class="p-worry__item">
+                            勤怠打刻が徹底されておらず、打刻漏れが多い．．．
+                        </li>
+                        <li class="p-worry__item">
+                            有給休暇の付与や執行の管理が面倒．．．
+                        </li>
+                        <li class="p-worry__item">
+                            紙やエクセルでの申請、承認が大変．．．
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="l-section p-solution">
+            <div class="l-section__container">
+                <h3 class="c-section__title">そのお悩み、簡単勤怠が<span class="title_orange">解決します！</span></h3>
+                <ul class="p-solution__list">
+                    <li class="p-solution__item">
+                        <p class="p-solution__itemTitle">
+                            アラート表示で<br>簡単確認
+                        </p>
+                        <div class="p-solution__itemImgWrap">
+                            <img class="p-solution__itemImg" src="assets/img/alert.png" alt="打刻漏れ等のアラート表示">
+                        </div>
+                        <p class="p-solution__itemText">
+                            打刻漏れ、申請漏れ箇所が出勤簿上のアラート表示ですぐ分かります。
+                        </p>
+                    </li>
+                    <li class="p-solution__item">
+                        <p class="p-solution__itemTitle">
+                            有給取得の申請〜承認が<br>Webで完結！
+                        </p>
+                        <div class="p-solution__itemImgWrap">
+                            <img class="p-solution__itemImg" src="assets/img/system.png" alt="有給申請をwebシステムで完結">
+                        </div>
+                        <p class="p-solution__itemText">
+                            有給の申請も承認もWebで完結！紙などの申請フローがなくなるので、申請者にも承認者にも便利に。
+                        </p>
+                    </li>
+                    <li class="p-solution__item">
+                        <p class="p-solution__itemTitle">
+                            申請、承認作業を<br>システム内で完結
+                        </p>
+                        <div class="p-solution__itemImgWrap">
+                            <img class="p-solution__itemImg" src="assets/img/check.png" alt="申請から承認の流れをシステム化">
+                        </div>
+                        <p class="p-solution__itemText">
+                            外出先からも申請、承認ができるので、紙やエクセル管理をなくせます。
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="p-function">
+            <div class="l-section__container">
+                <h3 class="c-section__title">簡単勤怠の主要機能</h3>
+                <ul class="p-function__list">
+                    <li class="p-function__item">
+                        <div class="p-function__itemImgWrap">
+                            <img class="p-function__img" src="assets/img/worktime.png">
+                        </div>
+                        <p class="p-function__itemTitle">勤怠管理</p>
+                        <p class="p-function__itemText">
+                            パソコンやスマートフォンでの打刻に加え、打刻機を使ったICカード打刻にも対応！基本勤務制・シフト制
+                            ・裁量労働制・フレックスタイム制など、様々な就業ルールでも勤怠管理できます。
+                        </p>
+                    </li>
+                    <li class="p-function__item">
+                        <div class="p-function__itemImgWrap">
+                            <img class="p-function__img" src="assets/img/holiday.png">
+                        </div>
+                        <p class="p-function__itemTitle">休暇管理</p>
+                        <p class="p-function__itemText">
+                            パソコンやスマートフォンでの打刻に加え、打刻機を使ったICカード打刻にも対応！基本勤務制・シフト制
+                            ・裁量労働制・フレックスタイム制など、様々な就業ルールでも勤怠管理できます。
+                        </p>
+                    </li>
+                    <li class="p-function__item">
+                        <div class="p-function__itemImgWrap">
+                            <img class="p-function__img" src="assets/img/calculator.png">
+                        </div>
+                        <p class="p-function__itemTitle">自動集計</p>
+                        <p class="p-function__itemText">
+                            パソコンやスマートフォンでの打刻に加え、打刻機を使ったICカード打刻にも対応！基本勤務制・シフト制
+                            ・裁量労働制・フレックスタイム制など、様々な就業ルールでも勤怠管理できます。
+                        </p>
+                    </li>
+                    <li class="p-function__item">
+                        <div class="p-function__itemImgWrap">
+                            <img class="p-function__img" src="assets/img/attention.png">
+                        </div>
+                        <p class="p-function__itemTitle">アラート機能</p>
+                        <p class="p-function__itemText">
+                            パソコンやスマートフォンでの打刻に加え、打刻機を使ったICカード打刻にも対応！基本勤務制・シフト制
+                            ・裁量労働制・フレックスタイム制など、様々な就業ルールでも勤怠管理できます。
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <div class="c-contact_area">
+            <div class="c-contact__btnWrap">
+                <div class="c-button orange big_button"><a href="#">資料ダウンロード</a></div>
+                <div class="c-button blue big_button"><a href="#">30日間無料体験</a></div>
+            </div>
+            <p class="c-contact__text">
+                <a href="#"><span>お問い合わせはコチラ</span><img class="c-contact__arrow" src="assets/img/arrow.svg" alt="お問い合わせはコチラ"></a><br>
+                <span class="c-contact__time">24時間受付！</span>
+            </p>
+        </div>
+        <section class="p-price">
+            <div class="l-section__container yellow_bg">
+                <h3 class="c-section__title">料金プラン</h3>
+                <ul class="p-price__list">
+                    <li class="p-price__item">
+                        <p class="p-price__itemTitle">ショートプラン</p>
+                        <p class="p-price__itemText">50名以下の小規模事業者向け</p>
+                        <p class="p-price__itemPrice">3,800<span>円/月</span></p>
+                    </li>
+                    <li class="p-price__item">
+                        <p class="p-price__itemTitle">スタンダードプラン</p>
+                        <p class="p-price__itemText">51名以上の小中企業向け</p>
+                        <p class="p-price__itemPrice">5,800<span>円/月</span></p>
+                    </li>
+                </ul>
+                <p class="p-price__textAttention">
+                    ※価格は税抜です<br>
+                    ※月額利用料の他に初期費用、オプション費用がかかります
+                </p>
+            </div>
+        </section>
+        <div class="c-contact_area">
+            <div class="c-contact__btnWrap">
+                <div class="c-button orange big_button"><a href="#">資料ダウンロード</a></div>
+                <div class="c-button blue big_button"><a href="#">30日間無料体験</a></div>
+            </div>
+            <p class="c-contact__text">
+                <a href="#"><span>お問い合わせはコチラ</span><img class="c-contact__arrow" src="assets/img/arrow.svg" alt="お問い合わせはコチラ"></a><br>
+                <span class="c-contact__time">24時間受付！</span>
+            </p>
+        </div>
+        <section class="l-section p-reputation">
+            <div class="l-section__container">
+                <h3 class="c-section__title">お客様の声</h3>
+                <ul class="p-reputation__list">
+                    <li class="p-reputation__item">
+                        <div class="p-reputation__itemImgWrap">
+                            <img class="p-reputation__itemImg" src="assets/img/companyaaa.jpg">
+                        </div>
+                        <p class="p-reputation__itemName">
+                            株式会社AAA<br>
+                            <span>〜50名</span>
+                        </p>
+                        <p class="p-reputation__itemCategory">小売</p>
+                        <p class="p-reputation__itemText">
+                            業務効率がアップし、残業時間が大幅に削減できました！
+                        </p>
+                    </li>
+                    <li class="p-reputation__item">
+                        <div class="p-reputation__itemImgWrap">
+                            <img class="p-reputation__itemImg" src="assets/img/companybbb.jpg">
+                        </div>
+                        <p class="p-reputation__itemName">
+                            株式会社BBB<br>
+                            <span>〜50名</span>
+                        </p>
+                        <p class="p-reputation__itemCategory">小売</p>
+                        <p class="p-reputation__itemText">
+                            業務効率がアップし、残業時間が大幅に削減できました！
+                        </p>
+                    </li>
+                    <li class="p-reputation__item">
+                        <div class="p-reputation__itemImgWrap">
+                            <img class="p-reputation__itemImg" src="assets/img/companyccc.jpg">
+                        </div>
+                        <p class="p-reputation__itemName">
+                            株式会社CCC<br>
+                            <span>〜50名</span>
+                        </p>
+                        <p class="p-reputation__itemCategory">小売</p>
+                        <p class="p-reputation__itemText">
+                            業務効率がアップし、残業時間が大幅に削減できました！
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="l-section p-question">
+            <div class="l-section__container">
+                <h3 class="c-section__title">よくある質問</h3>
+                <ul class="p-question__list">
+                    <li class="p-question__item">
+                        <p class="p-question__itemQ"><span class="Q">Q</span><span class="question_text">途中で解約することはできますか？途中で解約することはできますか？</span><span id="button" class="p-question__itemArrow"></span></p>
+                        <div id="answer" class="p-question__itemA">
+                            <span class="a">A</span><p>ショートプラン、スタンダードプラン、共に途中で解約できます。<br>
+                            ただし、契約期間の途中で解約した場合も、ご利用料金は満額発生します。<br>
+                            契約の残期間に応じた返金や日割り計算はございません。</p>
+                        </div>
+                    </li>
+                    <li class="p-question__item">
+                        <p class="p-question__itemQ"><span class="Q">Q</span><span class="question_text">途中で解約することはできますか？</span><span id="button" class="p-question__itemArrow"></span></p>
+                        <div id="answer" class="p-question__itemA">
+                            <span class="a">A</span><p>ショートプラン、スタンダードプラン、共に途中で解約できます。<br>
+                            ただし、契約期間の途中で解約した場合も、ご利用料金は満額発生します。<br>
+                            契約の残期間に応じた返金や日割り計算はございません。</p>
+                        </div>
+                    </li>
+                    <li class="p-question__item">
+                        <p class="p-question__itemQ"><span class="Q">Q</span><span class="question_text">途中で解約することはできますか？</span><span id="button" class="p-question__itemArrow"></span></p>
+                        <div id="answer" class="p-question__itemA">
+                            <span class="a">A</span><p>ショートプラン、スタンダードプラン、共に途中で解約できます。<br>
+                            ただし、契約期間の途中で解約した場合も、ご利用料金は満額発生します。<br>
+                            契約の残期間に応じた返金や日割り計算はございません。</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <div class="c-contact_area">
+            <div class="c-contact__btnWrap">
+                <div class="c-button orange big_button"><a href="#">資料ダウンロード</a></div>
+                <div class="c-button blue big_button"><a href="#">30日間無料体験</a></div>
+            </div>
+            <p class="c-contact__text">
+                <a href="#"><span>お問い合わせはコチラ</span><img class="c-contact__arrow" src="assets/img/arrow.svg" alt="お問い合わせはコチラ"></a><br>
+                <span class="c-contact__time">24時間受付！</span>
+            </p>
+        </div>
+    </main>
+    <footer>
+        <div class="l-footer__wrap">
+            <nav class="l-footer__nav">
+                <ul class="l-footer__list">
+                    <li class="l-footer__item">
+                        <a href="#">会社概要</a>
+                    </li>
+                    <li class="l-footer__item">
+                        <a href="#">個人情報保護方針</a>
+                    </li>
+                    <li class="l-footer__item">
+                        <a href="#">サイトポリシー</a>
+                    </li>
+                    <li class="l-footer__item">
+                        <a href="#">よくある質問</a>
+                    </li>
+                    <li class="l-footer__item">
+                        <a href="#">お問い合わせ</a>
+                    </li>
+                </ul>
+            </nav>
+            <p class="l-footer__copyright">copyright&#169;2023</p>
+        </div>
+    </footer>
+    <div class="l-cotact__float">
+        <a href="#">
+            <div class="l-contact__imgWrap"></div>
+            <p class="l-contact__text">お問い合わせ</p>
+        </a>
+    </div>
+</body>
+</html>
